@@ -85,11 +85,12 @@ export async function fetchCommitCountsForRepositories({ token, username, reposi
       batch.map((repo) => fetchRepositoryCommitCount({ token, username, repo: repo.name }))
     );
 
-    for (const result of batchResults) {
+    for (let j = 0; j < batchResults.length; j += 1) {
+      const result = batchResults[j];
       if (result.status === "fulfilled") {
         results.push(result.value);
       } else {
-        results.push({ repo: batch[results.length]?.name || "unknown", count: null });
+        results.push({ repo: batch[j].name, count: null });
       }
     }
   }
@@ -107,11 +108,12 @@ export async function fetchLanguageDataForRepositories({ token, username, reposi
       batch.map((repo) => fetchRepositoryLanguages({ token, username, repo: repo.name }))
     );
 
-    for (const result of batchResults) {
+    for (let j = 0; j < batchResults.length; j += 1) {
+      const result = batchResults[j];
       if (result.status === "fulfilled") {
         results.push(result.value);
       } else {
-        results.push({ repo: batch[results.length]?.name || "unknown", languages: {} });
+        results.push({ repo: batch[j].name, languages: {} });
       }
     }
   }

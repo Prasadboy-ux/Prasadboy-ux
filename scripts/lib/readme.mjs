@@ -10,8 +10,44 @@ function escapeCell(value) {
   return String(value).replaceAll("|", "\\|").replaceAll("\n", " ");
 }
 
-function badgeSegment(value) {
-  return encodeURIComponent(String(value).replaceAll("-", "--").replaceAll("_", "__").replaceAll(" ", "_"));
+function renderTechStack(techStack) {
+  const knownLanguages = ["HTML", "CSS", "JavaScript", "Python", "TypeScript", "Java", "C++", "C#", "Ruby", "Go", "Rust", "PHP", "Swift", "Kotlin", "SQL", "R", "MATLAB", "Scala", "Dart", "Shell", "Bash"];
+  const knownEditors = ["VS Code", "Visual Studio", "IntelliJ", "Sublime Text", "Atom", "Vim", "Emacs", "Notepad++", "Git", "GitHub", "GitLab", "Docker", "Postman", "Jira", "Confluence"];
+
+  const languages = [];
+  const editors = [];
+  const tools = [];
+
+  for (const item of techStack) {
+    const lower = item.toLowerCase();
+    if (knownLanguages.some((lang) => lower.includes(lang.toLowerCase()))) {
+      languages.push(item);
+    } else if (knownEditors.some((editor) => lower.includes(editor.toLowerCase()))) {
+      editors.push(item);
+    } else {
+      tools.push(item);
+    }
+  }
+
+  const parts = [];
+  if (tools.length > 0) parts.push(`Tools:      ${tools.join(" · ")}`);
+  if (languages.length > 0) parts.push(`Languages:  ${languages.join(" · ")}`);
+  if (editors.length > 0) parts.push(`Editors:    ${editors.join(" · ")}`);
+
+  return parts.join("\n");
+}
+
+function renderTypingSvg(username, config) {
+  const lines = [
+    `${config.profile.headline} @ ${config.profile.affiliation}`,
+    config.research.themes,
+    config.profile.status,
+    config.footer
+  ];
+  const encoded = lines.map(encodeURIComponent).join(";");
+  return `<a href="https://github.com/${username}">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1200&color=0A66C2&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=${encoded}" alt="Typing SVG">
+  </a>`;
 }
 
 function renderLinks(links) {
@@ -49,12 +85,14 @@ ${right}
 
 function renderProjects(projects) {
   const cards = projects.slice(0, 4).map((project) => {
+    const repoUrl = project.homepage || project.url;
+    const badgeLabel = project.homepage ? "VIEW_PROJECT" : "VIEW_REPO";
     return `<td width="50%">
 
 <h3 align="center">${project.name}</h3>
 <p align="center">
-  <a href="${project.url}">
-    <img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
+  <a href="${repoUrl}">
+    <img src="https://img.shields.io/badge/${badgeLabel}-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="${badgeLabel}" />
   </a>
 </p>
 <p align="center"><em>${project.summary}</em></p>
@@ -68,6 +106,54 @@ function renderProjects(projects) {
   }
 
   return `<table>\n${rows.join("\n")}\n</table>`;
+}
+
+function renderTechStackBadges(techStack) {
+  const qualityItems = ["ISO 9001", "ISO 14001", "ISO 45001", "ISO 19011", "SPC", "8D Report", "FMEA", "CAPA", "SmartScope", "Root Cause Analysis", "Quality Assurance", "Quality Control"];
+  const qualityBadges = {
+    "ISO 9001": { label: "ISO_9001", value: "Quality_Mgmt", color: "0B1220" },
+    "ISO 14001": { label: "ISO_14001", value: "Environmental", color: "0B1220" },
+    "ISO 45001": { label: "ISO_45001", value: "OH%26S", color: "0B1220" },
+    "ISO 19011": { label: "ISO_19011", value: "Auditing", color: "0B1220" },
+    "SPC": { label: "SPC", value: "Statistical_Process_Control", color: "0A66C2", logo: "databricks", logoColor: "white", style: "flat-square" },
+    "8D Report": { label: "8D", value: "Problem_Solving", color: "0A66C2", logo: "target", logoColor: "white", style: "flat-square" },
+    "FMEA": { label: "FMEA", value: "Failure_Mode_Analysis", color: "0A66C2", logo: "codacy", logoColor: "white", style: "flat-square" },
+    "CAPA": { label: "CAPA", value: "Corrective_Action", color: "0A66C2", logo: "checkmarx", logoColor: "white", style: "flat-square" },
+    "SmartScope": { label: "SmartScope", value: "Precision_Measurement", color: "25D366", logo: "openlayers", logoColor: "white", style: "flat-square" },
+    "Root Cause Analysis": { label: "RCA", value: "Root_Cause_Analysis", color: "25D366", logo: "scrutinizerci", logoColor: "white", style: "flat-square" }
+  };
+
+  const quality = techStack.filter((item) => qualityItems.includes(item));
+  const others = techStack.filter((item) => !qualityItems.includes(item));
+
+  const parts = [];
+
+  if (others.length > 0) {
+    const icons = others.slice(0, 6).map((item) => item.toLowerCase().replace(/\s+/g, "")).join(",");
+    parts.push(`<p align="center">\n  <img src="https://skillicons.dev/icons?i=${icons}&theme=dark&perline=6" alt="Dev Tools" />\n</p>`);
+  }
+
+  const isoBadges = quality.filter((item) => item.startsWith("ISO"));
+  const toolBadges = quality.filter((item) => !item.startsWith("ISO"));
+
+  if (isoBadges.length > 0) {
+    const badges = isoBadges.map((item) => {
+      const b = qualityBadges[item];
+      return `  <img alt="${item}" src="https://img.shields.io/badge/${b.label}-${b.value}-${b.color}?style=for-the-badge&logoColor=white">`;
+    }).join("\n");
+    parts.push(`<p align="center">\n${badges}\n</p>`);
+  }
+
+  if (toolBadges.length > 0) {
+    const badges = toolBadges.map((item) => {
+      const b = qualityBadges[item];
+      const logo = b.logo ? `&logo=${b.logo}&logoColor=${b.logoColor}` : "";
+      return `  <img alt="${item}" src="https://img.shields.io/badge/${b.label}-${b.value}-${b.color}?style=${b.style || "for-the-badge"}${logo}">`;
+    }).join("\n");
+    parts.push(`<p align="center">\n${badges}\n</p>`);
+  }
+
+  return parts.join("\n\n");
 }
 
 function renderBar(value, maxValue, maxBars = 14) {
@@ -276,9 +362,7 @@ ${renderLinks(config.links)}
 <!-- ═══════════════════════════════════ TYPING SVG ═══════════════════════════════════ -->
 
 <p align="center">
-  <a href="https://github.com/${username}">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1200&color=0A66C2&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=Assistant+QA%2FQC+Engineer+%40+PT+HLN+Batam;%F0%9F%94%8D+Root+Cause+Analysis+%C2%B7+SPC+%C2%B7+CAPA+%C2%B7+FMEA;%F0%9F%9B%A0%EF%B8%8F+Building+tools+I+used+to+fill+in+by+hand;%F0%9F%93%8A+Data-Driven+Quality+%C2%B7+Zero+Defects+Mindset" alt="Typing SVG">
-  </a>
+  ${renderTypingSvg(username, config)}
 </p>
 
 <p align="center">
@@ -300,7 +384,7 @@ Name:       ${config.profile.name}
 Role:       ${config.profile.headline}
 Company:    ${config.profile.affiliation}
 Location:   ${config.profile.location}
-Focus:      Quality Assurance · Process Improvement · Statistical Analysis
+Focus:      ${config.focus.slice(0, 3).map((item) => item.name).join(" · ")}
 
 Certifications:
   - ISO 9001  (Quality Management)
@@ -308,9 +392,7 @@ Certifications:
   - ISO 45001 (Occupational Health & Safety)
   - ISO 19011 (Auditing Management Systems)
 
-Tools:      SmartScope · SPC · 8D Reports · FMEA · CAPA · Root Cause Analysis
-Languages:  HTML · CSS · JavaScript
-Editors:    VS Code · Git
+${renderTechStack(config.techStack)}
 \`\`\`
 
 > *"Quality is not an act, it is a habit."* — Aristotle
@@ -329,25 +411,7 @@ ${renderFocus(config.focus)}
 
 ## 🧰 &nbsp;Tech Stack & Quality Toolkit
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,git,vscode,github&theme=dark&perline=6" alt="Dev Tools" />
-</p>
-
-<p align="center">
-  <img alt="ISO 9001" src="https://img.shields.io/badge/ISO_9001-Quality_Mgmt-0B1220?style=for-the-badge&logoColor=white">
-  <img alt="ISO 14001" src="https://img.shields.io/badge/ISO_14001-Environmental-0B1220?style=for-the-badge&logoColor=white">
-  <img alt="ISO 45001" src="https://img.shields.io/badge/ISO_45001-OH%26S-0B1220?style=for-the-badge&logoColor=white">
-  <img alt="ISO 19011" src="https://img.shields.io/badge/ISO_19011-Auditing-0B1220?style=for-the-badge&logoColor=white">
-</p>
-
-<p align="center">
-  <img alt="SPC" src="https://img.shields.io/badge/SPC-Statistical_Process_Control-0A66C2?style=flat-square&logo=databricks&logoColor=white">
-  <img alt="8D Report" src="https://img.shields.io/badge/8D-Problem_Solving-0A66C2?style=flat-square&logo=target&logoColor=white">
-  <img alt="FMEA" src="https://img.shields.io/badge/FMEA-Failure_Mode_Analysis-0A66C2?style=flat-square&logo=codacy&logoColor=white">
-  <img alt="CAPA" src="https://img.shields.io/badge/CAPA-Corrective_Action-0A66C2?style=flat-square&logo=checkmarx&logoColor=white">
-  <img alt="SmartScope" src="https://img.shields.io/badge/SmartScope-Precision_Measurement-25D366?style=flat-square&logo=openlayers&logoColor=white">
-  <img alt="RCA" src="https://img.shields.io/badge/RCA-Root_Cause_Analysis-25D366?style=flat-square&logo=scrutinizerci&logoColor=white">
-</p>
+${renderTechStackBadges(config.techStack)}
 
 ---
 
