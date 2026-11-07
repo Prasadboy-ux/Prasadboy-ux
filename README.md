@@ -3,7 +3,7 @@
 <!-- ═══════════════════════════════════ HEADER ═══════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,100:0A66C2&height=200&section=header&text=Prakash%20Prasad&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Assistant%20QA%2FQC%20Engineer%20%E2%80%A2%20PT%20HLN%20Batam&descSize=18&descAlignY=55&descColor=94a3b8" alt="header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0B1220,50:0A4C94,100:0A66C2&height=230&section=header&text=Prakash%20Prasad&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Assistant%20QA%2FQC%20Engineer%20%E2%86%92%20Quality%20%2B%20Code&descSize=18&descAlignY=60&descColor=cbd5e1" alt="header" width="100%" />
 </p>
 
 <!-- ═══════════════════════════════════ HERO BANNER ═══════════════════════════════════ -->
@@ -18,80 +18,125 @@
   </picture>
 </p>
 
+<!-- ═══════════════════════════════════ TYPING SVG ═══════════════════════════════════ -->
+
+<p align="center">
+  <a href="https://github.com/Prasadboy-ux">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1200&color=0A66C2&center=true&vCenter=true&multiline=true&repeat=true&width=680&height=110&lines=Assistant+QA%2FQC+Engineer+%40+PT+HLN+Batam;%F0%9F%94%8D+Root+Cause+Analysis+%C2%B7+SPC+%C2%B7+CAPA+%C2%B7+FMEA;%F0%9F%9B%A0%EF%B8%8F+Building+tools+I+used+to+fill+in+by+hand;%F0%9F%93%8A+Data-Driven+Quality+%C2%B7+Zero+Defects+Mindset" alt="Typing SVG">
+  </a>
+</p>
+
 <!-- ═══════════════════════════════════ SOCIAL BADGES ═══════════════════════════════════ -->
 
 <p align="center">
   <a href="https://github.com/Prasadboy-ux"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Prasadboy--ux-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/prakash-prasad-550a1a1a8/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Prakash_Prasad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://wa.me/62876388215"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-%2B62_876--3882--15-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-</p>
-
-<!-- ═══════════════════════════════════ TYPING SVG ═══════════════════════════════════ -->
-
-<p align="center">
-  <a href="https://github.com/Prasadboy-ux">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1200&color=0A66C2&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=Assistant+QA%2FQC+Engineer+%40+PT+HLN+Batam;%F0%9F%94%8D+Root+Cause+Analysis+%C2%B7+SPC+%C2%B7+CAPA+%C2%B7+FMEA;%F0%9F%9B%A0%EF%B8%8F+Building+tools+I+used+to+fill+in+by+hand;%F0%9F%93%8A+Data-Driven+Quality+%C2%B7+Zero+Defects+Mindset" alt="Typing SVG">
-  </a>
+  <a href="https://wa.me/62876388215"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-Chat_with_me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Prasadboy-ux&label=Profile%20Views&color=0A66C2&style=for-the-badge">
-  &nbsp;
-  <img alt="Followers" src="https://img.shields.io/github/followers/Prasadboy-ux?style=for-the-badge&logo=github&color=0B1220&labelColor=0B1220">
-  &nbsp;
-  <img alt="Stars" src="https://img.shields.io/github/stars/Prasadboy-ux?style=for-the-badge&logo=github&color=0B1220&labelColor=0B1220&affiliations=OWNER">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Prasadboy-ux&label=Profile%20Views&color=0A66C2&style=flat-square">
+  <img alt="Followers" src="https://img.shields.io/github/followers/Prasadboy-ux?style=flat-square&logo=github&color=0A66C2&labelColor=0B1220">
+  <img alt="Stars" src="https://img.shields.io/github/stars/Prasadboy-ux?style=flat-square&logo=github&color=0A66C2&labelColor=0B1220&affiliations=OWNER">
+  <img alt="Location" src="https://img.shields.io/badge/Batam-Indonesia-0A66C2?style=flat-square&logo=googlemaps&logoColor=white&labelColor=0B1220">
+</p>
+
+<p align="center">
+  <a href="#-about-me">About</a> &nbsp;·&nbsp;
+  <a href="#-my-journey">Journey</a> &nbsp;·&nbsp;
+  <a href="#-tech-stack--quality-toolkit">Toolkit</a> &nbsp;·&nbsp;
+  <a href="#-featured-projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#-github-analytics">Analytics</a> &nbsp;·&nbsp;
+  <a href="#-lets-connect">Connect</a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1220,100:0A66C2&height=2&section=header" width="100%" alt="divider" />
+
+<!-- ═══════════════════════════════════ ABOUT ME ═══════════════════════════════════ -->
+
+## 👋 About Me
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+I'm a **Quality engineer who codes**. By day I inspect, measure, and fix problems on the production floor at **PT HLN Batam**. After hours I turn the paper forms and spreadsheets I used to fill in by hand into **web tools and dashboards**.
+
+- 🔬 Daily work: IQC inspection, SPC, RCA, 8D, FMEA, CAPA
+- 💻 Learning: web development & digital transformation for manufacturing
+- 🎯 Goal: make quality data **faster to capture, easier to see, harder to ignore**
+
+> *"Quality is not an act, it is a habit."* — Aristotle
+
+</td>
+<td width="42%" valign="top">
+
+```yaml
+Name:     Prakash Prasad
+Role:     Assistant QA/QC Engineer
+Company:  PT HLN Batam
+Location: Batam, Indonesia
+Focus:    Quality Assurance
+          Process Improvement
+          Statistical Analysis
+Tools:    SmartScope · SPC · 8D
+          FMEA · CAPA · RCA
+Code:     HTML · CSS · JavaScript
+Editors:  VS Code · Git
+```
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img alt="ISO 9001" src="https://img.shields.io/badge/ISO_9001-Quality_Mgmt-0B1220?style=for-the-badge&logo=iso&logoColor=white">
+  <img alt="ISO 14001" src="https://img.shields.io/badge/ISO_14001-Environmental-0B1220?style=for-the-badge&logo=leaflet&logoColor=white">
+  <img alt="ISO 45001" src="https://img.shields.io/badge/ISO_45001-OH%26S-0B1220?style=for-the-badge&logo=safari&logoColor=white">
+  <img alt="ISO 19011" src="https://img.shields.io/badge/ISO_19011-Auditing-0B1220?style=for-the-badge&logo=checkmarx&logoColor=white">
 </p>
 
 ---
 
-<!-- ═══════════════════════════════════ ABOUT ME ═══════════════════════════════════ -->
+<!-- ═══════════════════════════════════ JOURNEY ═══════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;About Me
+## 🧭 My Journey
 
-```yaml
-Name:       Prakash Prasad
-Role:       Assistant QA/QC Engineer
-Company:    PT HLN Batam
-Location:   Batam, Indonesia
-Focus:      Quality Assurance · Process Improvement · Statistical Analysis
-
-Certifications:
-  - ISO 9001  (Quality Management)
-  - ISO 14001 (Environmental Management)
-  - ISO 45001 (Occupational Health & Safety)
-  - ISO 19011 (Auditing Management Systems)
-
-Tools:      SmartScope · SPC · 8D Reports · FMEA · CAPA · Root Cause Analysis
-Languages:  HTML · CSS · JavaScript
-Editors:    VS Code · Git
+```mermaid
+flowchart LR
+    A["🏭 Shop floor<br/>inspection & SPC"] --> B["📝 Spot the pain<br/>manual forms & Excel"]
+    B --> C["💻 Learn to code<br/>HTML · CSS · JS"]
+    C --> D["🛠️ Build tools<br/>dashboards & systems"]
+    D --> E["🚀 Digital<br/>transformation"]
+    E -.->|feedback loop| A
 ```
 
-> *"Quality is not an act, it is a habit."* — Aristotle
+<p align="center"><sub>Plan → Do → Check → Act, applied to my own career 🔁</sub></p>
 
 ---
 
 <!-- ═══════════════════════════════════ CURRENT FOCUS ═══════════════════════════════════ -->
 
-## 🎯 &nbsp;Current Focus
+## 🎯 Current Focus
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🏗️ Quality Systems
-Implementing and maintaining ISO 9001, ISO 14001, ISO 45001, and ISO 19011 compliant quality frameworks.
+Implementing and maintaining ISO 9001, 14001, 45001 and 19011 compliant frameworks.
 
 ### 📈 Process Improvement
-Applying SPC, root cause analysis, 8D reports, FMEA, and CAPA to reduce defects and optimize production quality.
+SPC, root cause analysis, 8D, FMEA and CAPA to cut defects and stabilise production quality.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🔬 Inspections & QA
-Conducting IQC inspections using SmartScope and other tools to ensure materials and products meet specifications.
+IQC inspections with SmartScope and other tools so materials and products meet specification.
 
-### 🏗️ Quality Tools
-Building digital tools and dashboards to streamline QA workflows, track defects, and visualize quality metrics.
+### 🧩 Digital Quality Tools
+Dashboards and web apps that streamline QA workflows, track defects, and visualise quality metrics.
 
 </td>
 </tr>
@@ -101,80 +146,35 @@ Building digital tools and dashboards to streamline QA workflows, track defects,
 
 <!-- ═══════════════════════════════════ TECH STACK ═══════════════════════════════════ -->
 
-## 🧰 &nbsp;Tech Stack & Quality Toolkit
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,git,vscode,github&theme=dark&perline=6" alt="Dev Tools" />
-</p>
-
-<p align="center">
-  <img alt="ISO 9001" src="https://img.shields.io/badge/ISO_9001-Quality_Mgmt-0B1220?style=for-the-badge&logoColor=white">
-  <img alt="ISO 14001" src="https://img.shields.io/badge/ISO_14001-Environmental-0B1220?style=for-the-badge&logoColor=white">
-  <img alt="ISO 45001" src="https://img.shields.io/badge/ISO_45001-OH%26S-0B1220?style=for-the-badge&logoColor=white">
-  <img alt="ISO 19011" src="https://img.shields.io/badge/ISO_19011-Auditing-0B1220?style=for-the-badge&logoColor=white">
-</p>
-
-<p align="center">
-  <img alt="SPC" src="https://img.shields.io/badge/SPC-Statistical_Process_Control-0A66C2?style=flat-square&logo=databricks&logoColor=white">
-  <img alt="8D Report" src="https://img.shields.io/badge/8D-Problem_Solving-0A66C2?style=flat-square&logo=target&logoColor=white">
-  <img alt="FMEA" src="https://img.shields.io/badge/FMEA-Failure_Mode_Analysis-0A66C2?style=flat-square&logo=codacy&logoColor=white">
-  <img alt="CAPA" src="https://img.shields.io/badge/CAPA-Corrective_Action-0A66C2?style=flat-square&logo=checkmarx&logoColor=white">
-  <img alt="SmartScope" src="https://img.shields.io/badge/SmartScope-Precision_Measurement-25D366?style=flat-square&logo=openlayers&logoColor=white">
-  <img alt="RCA" src="https://img.shields.io/badge/RCA-Root_Cause_Analysis-25D366?style=flat-square&logo=scrutinizerci&logoColor=white">
-</p>
-
----
-
-<!-- ═══════════════════════════════════ FEATURED WORK ═══════════════════════════════════ -->
-
-## 🚀 &nbsp;Featured Projects
+## 🧰 Tech Stack & Quality Toolkit
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top" align="center">
 
-<h3 align="center">IQC Inspection</h3>
-<p align="center">
-  <a href="https://github.com/Prasadboy-ux/IQC-Inspection-System">
-    <img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
-  </a>
+**💻 Dev Toolkit**
+
+<img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode&theme=dark&perline=6" alt="Dev Tools" />
+
+<sub>**Next up:** Node.js · Express · PostgreSQL · REST APIs</sub>
+
+<p>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-learning-0B1220?style=flat-square&logo=nodedotjs&logoColor=5FA04E">
+  <img alt="Express" src="https://img.shields.io/badge/Express-learning-0B1220?style=flat-square&logo=express&logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-planned-0B1220?style=flat-square&logo=postgresql&logoColor=4169E1">
 </p>
-<p align="center"><em>A digital system for managing incoming quality inspections, tracking defects, and generating compliance reports.</em></p>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top" align="center">
 
-<h3 align="center">QA Dashboard</h3>
-<p align="center">
-  <a href="https://github.com/Prasadboy-ux/QA-Engineering-Dashboard">
-    <img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
-  </a>
-</p>
-<p align="center"><em>An interactive dashboard for monitoring quality KPIs, defect trends, and process capability metrics in real time.</em></p>
+**🔬 Quality Toolkit**
 
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-<h3 align="center">Rubber Mfg SPC</h3>
-<p align="center">
-  <a href="https://github.com/Prasadboy-ux/Rubber-Manufacturing-SPC-System">
-    <img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
-  </a>
-</p>
-<p align="center"><em>A specialized SPC system for rubber manufacturing processes to monitor variability and maintain product consistency.</em></p>
-
-</td>
-<td width="50%">
-
-<h3 align="center">NextGenAcademy</h3>
-<p align="center">
-  <a href="https://github.com/Prasadboy-ux/NextGenAcademy">
-    <img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
-  </a>
-</p>
-<p align="center"><em>A modern learning platform designed to deliver quality education content with an intuitive user experience.</em></p>
+<img alt="SPC" src="https://img.shields.io/badge/SPC-Statistical_Process_Control-0A66C2?style=flat-square&logo=databricks&logoColor=white"><br/>
+<img alt="8D" src="https://img.shields.io/badge/8D-Problem_Solving-0A66C2?style=flat-square&logo=target&logoColor=white"><br/>
+<img alt="FMEA" src="https://img.shields.io/badge/FMEA-Failure_Mode_Analysis-0A66C2?style=flat-square&logo=codacy&logoColor=white"><br/>
+<img alt="CAPA" src="https://img.shields.io/badge/CAPA-Corrective_Action-0A66C2?style=flat-square&logo=checkmarx&logoColor=white"><br/>
+<img alt="RCA" src="https://img.shields.io/badge/RCA-Root_Cause_Analysis-25D366?style=flat-square&logo=scrutinizerci&logoColor=white"><br/>
+<img alt="SmartScope" src="https://img.shields.io/badge/SmartScope-Precision_Measurement-25D366?style=flat-square&logo=openlayers&logoColor=white">
 
 </td>
 </tr>
@@ -182,7 +182,63 @@ Building digital tools and dashboards to streamline QA workflows, track defects,
 
 ---
 
+<!-- ═══════════════════════════════════ FEATURED WORK ═══════════════════════════════════ -->
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔎 IQC Inspection
+A digital system for managing incoming quality inspections, tracking defects, and generating compliance reports.
+
+<a href="https://github.com/Prasadboy-ux/IQC-Inspection-System"><img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 QA Dashboard
+An interactive dashboard for monitoring quality KPIs, defect trends, and process capability metrics in real time.
+
+<a href="https://github.com/Prasadboy-ux/QA-Engineering-Dashboard"><img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧪 Rubber Mfg SPC
+A specialised SPC system for rubber manufacturing to monitor variability and keep product consistent.
+
+<a href="https://github.com/Prasadboy-ux/Rubber-Manufacturing-SPC-System"><img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🎓 NextGenAcademy
+A modern learning platform built to deliver quality education content with an intuitive user experience.
+
+<a href="https://github.com/Prasadboy-ux/NextGenAcademy"><img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" /></a>
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════════════════════ ANALYTICS ═══════════════════════════════════ -->
+
 ## 📊 GitHub Analytics
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Prasadboy-ux&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=0A66C2&icon_color=0A66C2" alt="GitHub Stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prasadboy-ux&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=0A66C2" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Prasadboy-ux&theme=tokyonight&hide_border=true&background=0B1220&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2" alt="GitHub Streak" />
+</p>
 
 ### 📋 Profile Overview
 
@@ -195,9 +251,9 @@ Building digital tools and dashboards to streamline QA workflows, track defects,
 | 👥 Followers | 1 |
 | 👤 Following | 1 |
 
----
-
-### 📦 All Public Repositories
+<details>
+<summary><b>📦 All Public Repositories</b> &nbsp;(click to expand)</summary>
+<br/>
 
 | Repository | Language | ⭐ Stars | 🍴 Forks | Updated |
 | --- | --- | ---: | ---: | --- |
@@ -207,31 +263,31 @@ Building digital tools and dashboards to streamline QA workflows, track defects,
 | [**Prasadboy-ux**](https://github.com/Prasadboy-ux/Prasadboy-ux) | JavaScript | 0 | 0 | Sep 9, 2026 |
 | [**rollmaster-cli**](https://github.com/Prasadboy-ux/rollmaster-cli) | Python | 0 | 0 | Aug 30, 2026 |
 
----
+</details>
 
-### 💻 Top Language by Repository
+<details>
+<summary><b>💻 Language Breakdown</b> &nbsp;(by repository &amp; by commits)</summary>
+<br/>
 
-> Calculated by counting how many repositories are associated with each primary language.
+**Top language by repository** — counts how many repositories use each primary language.
 
-- `JavaScript   ██████████████ 60%`
-- `Python   █████████ 40%`
+- `JavaScript   ██████████████ 60%`
+- `Python       █████████      40%`
 
----
+**Top language by commit activity** — sums commit counts per repository, grouped by the repository's primary language (largest language bytes on GitHub).
 
-### 🔥 Top Language by Commit Activity
+- `JavaScript   ██████████████ 73.68%`
+- `Python       █████          26.32%`
 
-> Calculated by summing commit counts across repositories and grouping by repository primary language. A repository's primary language is determined by its largest language bytes on GitHub, not by individual commit contents.
+</details>
 
-- `JavaScript   ██████████████ 73.68%`
-- `Python   █████ 26.32%`
-
----
-
-### ⭐ Most Starred Projects
+<details>
+<summary><b>⭐ Most Starred Projects</b></summary>
+<br/>
 
 `1.` [**Blur-Theme**](https://github.com/Prasadboy-ux/Blur-Theme) — ⭐ 1
 
----
+</details>
 
 <p align="center">
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Prasadboy-ux&theme=tokyonight&utcOffset=7" alt="Commits Time" />
@@ -242,12 +298,11 @@ Building digital tools and dashboards to streamline QA workflows, track defects,
 
 <!-- AUTO:ANALYTICS:END -->
 
-
 ---
 
 <!-- ═══════════════════════════════════ SNAKE ═══════════════════════════════════ -->
 
-## 🐍 &nbsp;Contribution Snake
+## 🐍 Contribution Snake
 
 <p align="center">
   <picture>
@@ -261,7 +316,7 @@ Building digital tools and dashboards to streamline QA workflows, track defects,
 
 <!-- ═══════════════════════════════════ RESEARCH ═══════════════════════════════════ -->
 
-## 🔬 &nbsp;Research Direction
+## 🔬 Research Direction
 
 <blockquote>
 
@@ -273,13 +328,27 @@ I am focused on building dependable quality systems that integrate statistical p
 
 <!-- ═══════════════════════════════════ ACTIVITY ═══════════════════════════════════ -->
 
-## ⚡ &nbsp;Recent Activity
+## ⚡ Recent Activity
 
 <!-- AUTO:ACTIVITY:START -->
 _No recent public activity was found._
 <!-- AUTO:ACTIVITY:END -->
 
 ---
+
+<!-- ═══════════════════════════════════ CONNECT ═══════════════════════════════════ -->
+
+## 🤝 Let's Connect
+
+<p align="center">
+  Open to talking about <b>quality engineering</b>, <b>digital transformation in manufacturing</b>, and <b>learning to code</b>.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/prakash-prasad-550a1a1a8/"><img alt="LinkedIn" src="https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://wa.me/62876388215"><img alt="WhatsApp" src="https://img.shields.io/badge/Message_on-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+  <a href="https://github.com/Prasadboy-ux"><img alt="GitHub" src="https://img.shields.io/badge/Follow_on-GitHub-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
 
 <!-- ═══════════════════════════════════ FOOTER ═══════════════════════════════════ -->
 
